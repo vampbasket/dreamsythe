@@ -226,6 +226,12 @@ a:hover {
     .title {
         display: none;
     }
+
+    .float-md-left, .float-md-right {
+        width: 90%;
+        overflow-x: scroll;
+        scrollbar-width: .1em;
+    }
 }
 
 @media only screen and (min-device-width : 481px) {
