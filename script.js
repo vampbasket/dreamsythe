@@ -66,7 +66,7 @@ function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark })
 * Utility function to update the button text and aria-label.
 */
 function updateButton({ buttonEl, isDark }) {
-  const newCta = isDark ? "Change to accessible theme" : "Change to default theme";
+  const newCta = isDark ? "Change to greyscale theme" : "Change to default theme";
   // use an aria-label if you are omitting text on the button
   // and using a sun/moon icon, for example
   buttonEl.setAttribute("aria-label", newCta);
